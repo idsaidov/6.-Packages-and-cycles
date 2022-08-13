@@ -14,7 +14,7 @@ public class SQRServiceTest {
 //           "9801, 9801, 99, upper Bound"
 //   })
    @CsvFileSource(files="src\\test\\resources\\bound.csv")
-   public void shouldCountSquares( int lowerBound, int upperBound, int expected) {
+   public void shouldNumberOfSquares( int lowerBound, int upperBound, int expected) {
        SQRService sqr = new SQRService();
 
        int actual = sqr.calcSqrt(lowerBound, upperBound);
