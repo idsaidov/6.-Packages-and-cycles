@@ -9,9 +9,9 @@ public class SQRServiceTest {
 
    @ParameterizedTest
 //   @CsvSource({
-//           "200, 300, 15, middle range",
-//           "100, 100, 10, lower Bound",
-//           "9801, 9801, 99, upper Bound"
+//           "200, 300, 3, middle range",
+//           "100, 100, 1, lower Bound",
+//           "9801, 9801, 1, upper Bound"
 //   })
    @CsvFileSource(files="src\\test\\resources\\bound.csv")
    public void shouldNumberOfSquares( int lowerBound, int upperBound, int expected) {
